@@ -2,3 +2,4 @@
 /.idea/
 *.iml
 configuration.properties
+*.log.gz
