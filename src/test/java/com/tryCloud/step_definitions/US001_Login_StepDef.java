@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-public class T001_Login_StepDef {
+public class US001_Login_StepDef {
 
     // scenario1: Valid login
     @Given("I am on the login page")

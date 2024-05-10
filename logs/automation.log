@@ -1,8 +1,2 @@
-09.05.2024 10:51:00 ERROR Hooks:33 - Scenario 'Invalid login with empty username or password' failed: FAILED
-09.05.2024 10:51:01 INFO  Hooks:40 - Closing the driver
-09.05.2024 10:51:01 INFO  Hooks:23 - Setting up browser and navigating to the URL
-09.05.2024 10:51:06 INFO  Hooks:40 - Closing the driver
-09.05.2024 10:51:07 INFO  Hooks:23 - Setting up browser and navigating to the URL
-09.05.2024 10:51:09 INFO  Hooks:40 - Closing the driver
-09.05.2024 10:51:10 INFO  Hooks:23 - Setting up browser and navigating to the URL
-09.05.2024 10:51:12 INFO  Hooks:40 - Closing the driver
+10.05.2024 15:48:45 INFO  Hooks:23 - Setting up browser and navigating to the URL
+10.05.2024 15:48:52 INFO  Hooks:40 - Closing the driver

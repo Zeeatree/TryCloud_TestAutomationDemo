@@ -1,3 +1,15 @@
+# User Story
+# As a user, I want to be able to log in so that I can access the application.
+# Acceptance Criteria:
+# 1. I should be able to log in with a valid username and password.
+# 2. I should not be able to log in with an invalid username or password.
+# 3. I should not be able to log in with an empty username or password.
+# 4. I should see the password as dots when I enter it.
+# 5. I should see the forgot password link.
+
+
+
+
 @login
 Feature: Login
   As a user
