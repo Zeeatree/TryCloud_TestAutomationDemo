@@ -40,16 +40,7 @@ public class DashboardPage {
     @FindBy(xpath = "//*[@id='contactsmenu-menu']")
     public WebElement ContactsMenu;
 
+    @FindBy(xpath = "//li[@data-id='settings']")
+    public WebElement linkSettings;
 
-
-    
-
-
-
-
-
-
-    
-    
-    
 }
