@@ -1,3 +1,27 @@
+#User Story 3
+#As a user, I want to be able to change my personal information, so that I can keep my profile up to date.
+  #Acceptance Criteria
+    #1. User can see at least following titles inside personal info under Full name/Email/Phone Number
+      #Full name
+      #Email
+      #Phone number
+      #Address
+      #Website
+      #Twitter
+      #Language
+      #Locale
+      #Profile picture
+
+    #2. User can change "Full name" info under Profile Settings page
+    #3. User can make "Phone number" info as private under Profile Settings page
+    #4. User can see the current local time under the Local dropdown
+    #5. User can change profile picture
+    #6. User can change language settings
+    #7. User can delete their account
+
+
+
+
 @user_profile
 Feature: Profile Settings Functionality
 
