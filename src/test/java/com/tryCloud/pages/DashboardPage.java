@@ -1,6 +1,8 @@
 package com.tryCloud.pages;
 
+import com.tryCloud.utilities.BrowserUtils;
 import com.tryCloud.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -42,5 +44,14 @@ public class DashboardPage {
 
     @FindBy(xpath = "//li[@data-id='settings']")
     public WebElement linkSettings;
+
+
+    public void navigateTo(String module){
+        module=module.toLowerCase();
+        String locator="//ul[@id='appmenu']/li[@data-id='"+module+"']";
+        WebElement moduleTab=Driver.getDriver().findElement(By.xpath(locator));
+        BrowserUtils.waitForClickablility(moduleTab,10);
+        moduleTab.click();
+    }
 
 }
